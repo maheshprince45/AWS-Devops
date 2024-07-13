@@ -13,7 +13,7 @@ echo "build has been success"
 }
 stage("deploy"){
 steps{
-echo "Deploy has been Success"
+sh " cp -r /var/lib/jenkins/workspace/First job/* /var/www/html/hotelwebsite"
 }
 }
 }
