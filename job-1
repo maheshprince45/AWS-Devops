@@ -13,7 +13,7 @@ echo "build has been success"
 }
 stage("deploy"){
 steps{
-sh " cp -r /var/lib/jenkins/workspace/First job/First project /var/www/html/hotelwebsite"
+sh " sudo cp -r /var/lib/jenkins/workspace/First job/First project /var/www/html/hotelwebsite"
 }
 }
 }
